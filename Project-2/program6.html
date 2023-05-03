@@ -1,0 +1,39 @@
+<script type="text/javascript">
+   var phy,che,bio,math,com;
+     var phy=parseInt (prompt("Enter Your Physics Mark:"));
+     var che=parseInt (prompt("Enter Your Chemistry Mark:"));
+     var bio=parseInt (prompt("Enter Your Biology Mark:"));
+     var math=parseInt (prompt("Enter Your Mathematics Mark:"));
+     var com=parseInt (prompt("Enter Your Computer Mark:"));
+     
+     percentage=(phy+che+bio+math+com)*100/500;
+     document.write("percentage:"+percentage);
+     console.log("percentage:"+percentage);
+     document.write("<br>");
+  
+     
+
+     if(percentage >= 90){
+        console.log("Your Score Grade A");
+       document.write("Your Score Grade A");
+     }else if(percentage >= 80){
+      console.log("Your Score Grade B");
+      document.write("Your Score Grade B");
+     }else if(percentage >= 70){
+      console.log("Your Score Grade C");
+      document.write("Your Score Grade C");
+     }else if(percentage >= 60){
+      console.log("Your Score Grade D");
+      document.write(" Your Score Grade D");
+     }else if(percentage >= 50){
+      console.log("Your Score Grade E");
+      document.write("Your Score Grade E");
+     }else if(percentage >= 40){
+      console.log("Your Score Grade F");
+      document.write("Your Score Grade F");
+     }else{
+      console.log("Sorry You are fail");
+      document.write("Sorry You are fail");
+        
+     }
+</script>
